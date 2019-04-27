@@ -1,12 +1,17 @@
-package com.example.asus.myapplication;
+package com.example.asus.myapplication.Activity;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Register extends AppCompatActivity {
+import com.example.asus.myapplication.Contact;
+import com.example.asus.myapplication.DatabaseHelper;
+import com.example.asus.myapplication.R;
+
+public class Register extends Activity {
 
     DatabaseHelper helper = new DatabaseHelper(this);
 

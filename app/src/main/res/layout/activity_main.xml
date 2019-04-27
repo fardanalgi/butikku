@@ -4,68 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="15sp"
+        android:orientation="vertical">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/ic_vpn_key_black_24dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
             android:layout_alignTop="@+id/textView4"
+            android:layout_toEndOf="@+id/TFpassword"
             android:layout_toRightOf="@+id/TFpassword"
-            android:layout_toEndOf="@+id/TFpassword" />
+            android:background="@drawable/butikhdd" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="59dp"
-            android:layout_marginStart="59dp"
-            android:layout_marginTop="52dp"
-            android:text="Username"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
 
         <EditText
             android:id="@+id/TFusername"
-            android:layout_width="wrap_content"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:layout_below="@+id/textView3"
             android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3" />
-
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/TFusername"
-            android:layout_alignStart="@+id/TFusername"
-            android:layout_below="@+id/TFusername"
-            android:layout_marginTop="30dp"
-            android:text="Password" />
-
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/textView3"
+            android:hint="username"
+            android:inputType="textPersonName" />
 
         <EditText
-        android:id="@+id/TFpassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView4"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_below="@+id/textView4"
-        android:ems="10"
-        android:inputType="textPassword" />
+            android:id="@+id/TFpassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:hint="password"
+            android:inputType="textPassword" />
+
         <Button
 
             android:id="@+id/Blogin"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
+            android:background="@drawable/bt"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/TFpassword"
             android:layout_alignStart="@+id/TFpassword"
@@ -77,16 +60,16 @@
 
         <Button
             android:id="@+id/bregister"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="wrap_content"
+            android:background="@drawable/bt"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:layout_alignEnd="@+id/TFpassword"
             android:layout_alignParentBottom="true"
             android:layout_alignRight="@+id/TFpassword"
             android:onClick="onButtonClick"
-            android:text="Register" />
-    </RelativeLayout>
-
+            android:text="no account yes ? signup" />
+    </LinearLayout>
 
 
 </ScrollView>
