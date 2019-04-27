@@ -17,9 +17,6 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:layout_alignTop="@+id/textView4"
-            android:layout_toEndOf="@+id/TFpassword"
-            android:layout_toRightOf="@+id/TFpassword"
             android:background="@drawable/butikhdd" />
 
 
