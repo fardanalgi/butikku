@@ -24,9 +24,6 @@
             android:id="@+id/TFusername"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView3"
-            android:layout_alignStart="@+id/textView3"
-            android:layout_below="@+id/textView3"
             android:hint="username"
             android:inputType="textPersonName" />
 
@@ -34,9 +31,6 @@
             android:id="@+id/TFpassword"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/textView4"
-            android:layout_alignStart="@+id/textView4"
-            android:layout_below="@+id/textView4"
             android:layout_marginTop="10dp"
             android:hint="password"
             android:inputType="textPassword" />
@@ -47,9 +41,6 @@
             android:background="@drawable/bt"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/TFpassword"
-            android:layout_alignStart="@+id/TFpassword"
-            android:layout_below="@+id/TFpassword"
             android:layout_marginTop="52dp"
             android:onClick="onButtonClick"
             android:text="Login" />
@@ -61,9 +52,6 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_alignEnd="@+id/TFpassword"
-            android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/TFpassword"
             android:onClick="onButtonClick"
             android:text="no account yes ? signup" />
     </LinearLayout>
