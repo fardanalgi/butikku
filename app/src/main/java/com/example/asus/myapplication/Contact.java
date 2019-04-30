@@ -1,7 +1,33 @@
 package com.example.asus.myapplication;
 
 public class Contact {
-    String name, email, uname, pass;
+    String name, email, uname, pass, Harga;
+    int Photo;
+
+    public Contact(){
+    }
+
+    public Contact(String name, String harga, int photo) {
+        this.name = name;
+        Harga = harga;
+        Photo = photo;
+    }
+
+    public String getHarga() {
+        return Harga;
+    }
+
+    public void setHarga(String phone) {
+        Harga = phone;
+    }
+
+    public int getPhoto() {
+        return Photo;
+    }
+
+    public void setPhoto(int photo) {
+        Photo = photo;
+    }
 
     public void setName(String name) {
         this.name = name;
