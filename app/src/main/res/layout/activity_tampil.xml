@@ -7,21 +7,16 @@
     android:orientation="vertical"
     tools:context=".Activity.Tampil">
 
-    <android.support.design.widget.BottomNavigationView
+    <android.support.design.widget.TabLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         app:tabMode="fixed"
         app:tabGravity="fill"
         app:tabIndicatorColor="@color/colorAccent"
-<<<<<<< HEAD
         android:id="@+id/tablayout_id"
         android:layout_alignParentBottom="true"/>
-=======
-        android:id="@+id/tablayout_id">
 
-    </android.support.design.widget.BottomNavigationView>
->>>>>>> 1608a8569cb926f23cd5c95c80455b2c53c28c56
 
     <android.support.v4.view.ViewPager
         android:layout_width="match_parent"
