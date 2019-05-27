@@ -1,12 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="10dp">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/butikhdd"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Katagori"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:id="@+id/iconDress"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_dress"/>
+
+            <Button
+                android:id="@+id/iconRok"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_rok"/>
+
+            <Button
+                android:id="@+id/iconHeels"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_heelsn"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/iconPolo"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_polon"/>
+
+            <Button
+                android:id="@+id/iconAccessory"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_accessoryn"/>
+
+            <Button
+                android:id="@+id/iconShoe"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/icon_shoen"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terbaru"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/colorPrimaryDark"/>
+
+
 
     <android.support.v7.widget.RecyclerView
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/contact_recyclearview">
@@ -14,5 +103,7 @@
 
     </android.support.v7.widget.RecyclerView>
 
+    </LinearLayout>
 
-</LinearLayout>
+
+</ScrollView>

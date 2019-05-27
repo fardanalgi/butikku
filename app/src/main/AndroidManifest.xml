@@ -19,7 +19,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DialogHome"></activity>
+        <activity android:name=".DialogHome" />
+        <activity android:name=".IconDressDetail"></activity>
     </application>
 
 </manifest>
