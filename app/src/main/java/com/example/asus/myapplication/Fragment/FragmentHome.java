@@ -11,12 +11,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ViewFlipper;
 
 import com.example.asus.myapplication.Contact;
 import com.example.asus.myapplication.IconDressDetail;
 import com.example.asus.myapplication.R;
-import com.example.asus.myapplication.RecyclerViewAdapter;
+import com.example.asus.myapplication.RecyclerView.RecyclerViewAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
