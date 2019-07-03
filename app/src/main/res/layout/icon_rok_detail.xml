@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".IconDressDetail">
+    tools:context=".IconRokDetail">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DRESS"
+        android:text="Heels"
         android:textColor="@color/colorPrimaryDark"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="5dp"
@@ -18,7 +18,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:padding="5dp"
-        android:id="@+id/recyclerview_id"
+        android:id="@+id/recyclerview_Rok_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

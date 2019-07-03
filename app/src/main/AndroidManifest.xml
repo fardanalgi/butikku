@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".DialogHome" />
-        <activity android:name=".IconDressDetail"></activity>
+        <activity android:name=".IconDressDetail" />
+        <activity android:name=".IconRokDetail" />
+        <activity android:name=".IconHeelsDetail"></activity>
     </application>
 
 </manifest>

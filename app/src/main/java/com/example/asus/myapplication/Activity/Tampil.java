@@ -40,8 +40,8 @@ public class Tampil extends AppCompatActivity {
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_explore);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_person);
 
-        //menghapus shadow actionbar
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setElevation(0);
+//        menghapus shadow actionbar
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.setElevation(0);
     }
 }
